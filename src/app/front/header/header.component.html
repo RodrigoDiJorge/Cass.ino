@@ -4,11 +4,30 @@
             <img src="" alt="">
         
         </div>
-        <div id="hc-Busca">
-            <input type="text">
-        </div>
+        <nav id="hc-Busca">
+            <div class="hcb-Nav" (mouseover)="showNav(1)" (mouseout)="hideNav(1)">
+                <p>Jogos</p>
+                <span id="hcbn-Jogos">
+                    <ul>
+                        <li>Roleta</li>
+                        <li>Poker</li>
+                        <li>BlackJack</li>
+                    </ul>
+                </span>
+            </div>
+            <div class="hcb-Nav" (mouseover)="showNav(2)" (mouseout)="hideNav(2)">
+                <p>Regras</p>
+                <span id="hcbn-Regras">
+                    <ul>
+                        <li>Dinheiro</li>
+                        <li>Hacker</li>
+                        <li>Sem Ideia</li>
+                    </ul>
+                </span>
+            </div>
+        </nav>
         <div id="hc-Login">
-            <input type="button">
+            <input type="button" value="Sign Up">
         </div>
     </div>
 </header>
