@@ -4,34 +4,24 @@
             <img src="" alt="">
         </div>
         <nav id="hc-Busca">
-            <div class="btn-group" dropdown>
+            <div id="hcb-Jogos" class="btn-group" dropdown>
                 <button id="button-basic" dropdownToggle type="button" class="btn btn-primary dropdown-toggle"
                         aria-controls="dropdown-basic">
-                  Button dropdown <span class="caret"></span>
+                  Jogos <span class="caret"></span>
                 </button>
                 <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
                     role="menu" aria-labelledby="button-basic">
-                  <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
-                  <li role="menuitem"><a class="dropdown-item" href="#">Another action</a></li>
-                  <li role="menuitem"><a class="dropdown-item" href="#">Something else here</a></li>
-                  <li class="divider dropdown-divider"></li>
-                  <li role="menuitem"><a class="dropdown-item" href="#">Separated link</a>
-                  </li>
+                    <li role="menuitem"><a class="dropdown-item" href="#">Poker</a></li>
+                    <li role="menuitem"><a class="dropdown-item" href="#">Roleta</a></li>
+                    <li role="menuitem"><a class="dropdown-item" href="#">BlackJack</a></li>
                 </ul>
-              </div>
-            <div class="hcb-Nav" (mouseover)="showNav(2)" (mouseout)="hideNav(2)">
-                <p>Regras</p>
-                <span id="hcbn-Regras">
-                    <ul>
-                        <li>Dinheiro</li>
-                        <li>Hacker</li>
-                        <li>Sem Ideia</li>
-                    </ul>
-                </span>
             </div>
+            
         </nav>
         <div id="hc-Login">
-            <input type="button" value="Sign Up">
+            <button id="hcl-Button" type="button" class="btn btn-primary">
+                Cadastrar-se
+            </button>
         </div>
     </div>
 </header>

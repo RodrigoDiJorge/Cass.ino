@@ -38,40 +38,27 @@
 {
     color: rgb(177, 177, 177);
 }
-#hcbn-Jogos
+#hcb-Jogos, #hcl-Button
 {
-    margin-top: 10px;
-    border-radius: 5px;
-    width: 150px;
-    background-color: wheat;
-    display: none;
-    color: black;
-    transition: display 0.3s;
-}
-#hcbn-Regras
-{
-    margin-top: 10px;
-    border-radius: 5px;
-    width: 150px;
-    background-color: wheat;
-    display: none;
-    color: black;
-}
-#hc-Login input
-{
+    height: 40px;
     align-self: center;
-    width: 100px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(105, 105, 231);
-    height: 35px;
 }
-#hc-Login input:hover
+#hcb-Jogos button
 {
-    box-shadow: 0 0 5px 1px;
-    transition: 0.2s;
+    background-color: grey;
+    border-color: grey;
+    
 }
-#hc-Login input:focus
+#hcb-Jogos button:focus
 {
-    outline: none;
+    box-shadow: 0 0 0 0.2em white;
+}
+#hcl-Button
+{
+    background-color: rgb(175, 0, 0);
+    border: black
+}
+#hcl-Button:focus
+{
+    box-shadow: 0 0 0 0.2em black;
 }

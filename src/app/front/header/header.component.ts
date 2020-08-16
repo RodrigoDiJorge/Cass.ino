@@ -15,32 +15,6 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
   ngAfterViewInit(){
-    this.Jogos = document.getElementById('hcbn-Jogos');
     this.Regras = document.getElementById('hcbn-Regras');
-  }
-  showNav(ind)
-  {
-    switch(ind)
-    {
-      case 1:
-        this.Jogos.style.display = "block";
-        break;
-      case 2:
-        this.Regras.style.display = "block";
-        break;
-    }
-  }
-  hideNav(ind)
-  {
-    let elementos = document.getElementById("hcbn-Jogos");
-    switch(ind)
-    {
-      case 1:
-        this.Jogos.style.display = "none";
-        break;
-      case 2:
-        this.Regras.style.display = "none";
-        break;
-    }
   }
 }
