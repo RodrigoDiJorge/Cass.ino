@@ -1,0 +1,33 @@
+#l-Content
+{
+    height: 530px;
+}
+#lc-Form
+{
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+#lc-Form h1
+{
+    text-align: center;
+}
+#lc-Form label
+{
+    margin: 0 auto;
+    display: block;
+}
+#lcf-Cadastrar, #lcf-Login
+{
+    margin-top: 10px;
+    width: 200px;
+    align-self: center;
+    background-color: grey;
+    border: grey;
+}
+#lcf-Confirmar:focus , #lcf-Login:focus
+{
+    box-shadow: 0 0 0 0.2em black;
+}

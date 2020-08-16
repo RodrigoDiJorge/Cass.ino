@@ -19,7 +19,7 @@
     margin: 0 auto;
     display: block;
 }
-#ccf-Confirmar
+#ccf-Confirmar, #ccf-Voltar
 {
     margin-top: 10px;
     width: 200px;
@@ -27,7 +27,7 @@
     background-color: grey;
     border: grey;
 }
-#ccf-Confirmar:focus
+#ccf-Confirmar:focus, #ccf-Voltar:focus
 {
     box-shadow: 0 0 0 0.2em black;
 }
