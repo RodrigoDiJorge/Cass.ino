@@ -1,0 +1,33 @@
+#c-Content
+{
+    height: 530px;
+}
+#cc-Form
+{
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+#cc-Form h1
+{
+    text-align: center;
+}
+#cc-Form label
+{
+    margin: 0 auto;
+    display: block;
+}
+#ccf-Confirmar
+{
+    margin-top: 10px;
+    width: 200px;
+    align-self: center;
+    background-color: grey;
+    border: grey;
+}
+#ccf-Confirmar:focus
+{
+    box-shadow: 0 0 0 0.2em black;
+}
