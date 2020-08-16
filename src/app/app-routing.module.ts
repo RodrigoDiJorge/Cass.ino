@@ -5,7 +5,7 @@ import { CadastrarComponent } from './front/cadastrar/cadastrar.component';
 
 const routes: Routes = [
   {
-    path: "",
+    path: "home",
     component:HomeComponent
   },
   {

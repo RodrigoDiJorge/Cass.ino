@@ -4,6 +4,9 @@
             <img src="" alt="">
         </div>
         <nav id="hc-Busca">
+            <button id="hcb-Home" type="button" class="btn btn-primary" routerLink="home">
+                Home
+            </button>
             <div id="hcb-Jogos" class="btn-group" dropdown>
                 <button id="button-basic" dropdownToggle type="button" class="btn btn-primary dropdown-toggle"
                         aria-controls="dropdown-basic">
@@ -20,7 +23,7 @@
             
         </nav>
         <div id="hc-Login">
-            <button id="hcl-Button" type="button" class="btn btn-primary" (click)="navigateToCadastrar()">
+            <button id="hcl-Button" type="button" class="btn btn-primary" routerLink="cadastrar">
                 Cadastrar-se
             </button>
         </div>

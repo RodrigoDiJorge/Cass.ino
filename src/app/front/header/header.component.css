@@ -38,18 +38,22 @@
 {
     color: rgb(177, 177, 177);
 }
-#hcb-Jogos, #hcl-Button
+#hcb-Home
+{
+    margin-right: 10px;
+}
+#hcb-Jogos, #hcl-Button, #hcb-Home
 {
     height: 40px;
     align-self: center;
 }
-#hcb-Jogos button
+#hcb-Jogos button , #hcb-Home
 {
     background-color: grey;
     border-color: grey;
     
 }
-#hcb-Jogos button:focus
+#hcb-Jogos button:focus, #hcb-Home:focus
 {
     box-shadow: 0 0 0 0.2em white;
 }
