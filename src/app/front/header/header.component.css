@@ -49,13 +49,13 @@
 }
 #hcb-Jogos button , #hcb-Home
 {
-    background-color: grey;
-    border-color: grey;
+    background-color: rgb(41, 40, 49);
+    border-color: rgb(41, 40, 49);
     
 }
 #hcb-Jogos button:focus, #hcb-Home:focus
 {
-    box-shadow: 0 0 0 0.2em white;
+    box-shadow: none;
 }
 #hcl-Button
 {
