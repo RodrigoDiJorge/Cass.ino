@@ -7,11 +7,15 @@ import { HeaderComponent } from './front/header/header.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { CadastrarComponent } from './front/cadastrar/cadastrar.component';
+import { HomeComponent } from './front/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    CadastrarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

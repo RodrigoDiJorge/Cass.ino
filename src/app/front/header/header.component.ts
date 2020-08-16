@@ -1,4 +1,5 @@
 import { Component, OnInit, ElementRef} from '@angular/core';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -8,13 +9,12 @@ import { Component, OnInit, ElementRef} from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private el: ElementRef) { }
-  Jogos;
-  Regras;
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
-  ngAfterViewInit(){
-    this.Regras = document.getElementById('hcbn-Regras');
+  navigateToCadastrar(): void
+  {
+    this.router.navigate(['cadastrar'])
   }
 }
