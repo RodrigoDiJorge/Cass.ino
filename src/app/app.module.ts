@@ -9,13 +9,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { CadastrarComponent } from './front/cadastrar/cadastrar.component';
 import { HomeComponent } from './front/home/home.component';
+import { LoginComponent } from './front/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     CadastrarComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
