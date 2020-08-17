@@ -10,6 +10,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { CadastrarComponent } from './front/cadastrar/cadastrar.component';
 import { HomeComponent } from './front/home/home.component';
 import { LoginComponent } from './front/login/login.component';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @NgModule({
   declarations: [
@@ -22,8 +23,10 @@ import { LoginComponent } from './front/login/login.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    CarouselModule,
     BrowserAnimationsModule,
-    BsDropdownModule.forRoot()
+    BsDropdownModule.forRoot(),
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
