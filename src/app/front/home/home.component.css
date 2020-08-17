@@ -1,6 +1,8 @@
 #hm-Content
 {
-    height: 530px;
+    height: 760px;
+    background-image: url('../../../assets/imgs/Home 2.jpg');
+    background-size: cover;
 }
 #hmc-Carousel
 {
@@ -15,6 +17,12 @@
     width: 100%;
     border-radius: 15px;
     height: 310px;
+}
+#hmcc-Slide1
+{
+    color: black;
+    margin-top: 15px;
+    width: 110px;
 }
 #hmc-Cards
 {
