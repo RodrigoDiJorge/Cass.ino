@@ -27,17 +27,44 @@
 {
     border-radius: 15px;
     width: 30%;
-    height: 300px;
+    height: 340px;
     background-color: white;
     box-shadow: 0 0 5px 1px black;
 }
-#hmccp-Inside, #hmccs-Inside, #hmccr-Inside
+.hmcc-Inside
 {
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
 }
-#hmccp-Inside img, #hmccs-Inside img
+.hmcci-Top
 {
-    width: 150px;
+    padding: 5px;
+    height: 9.5em;
+    border-radius: 15px 15px 0px 0px;
+}
+.hmcci-Center
+{
+    height: 5.5em;
+    border-radius: 0;
+}
+.hmcci-Bottom
+{
+    height: 2.6em;
+    border-radius: 0 0 15px 15px;
+}
+.hmcci-Bottom button
+{
     display: block;
     margin: 0 auto;
+}
+.hmcc-Inside img
+{
+    width: 150px;
+    height: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
 }
