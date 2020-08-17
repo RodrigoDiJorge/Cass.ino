@@ -16,3 +16,28 @@
     border-radius: 15px;
     height: 310px;
 }
+#hmc-Cards
+{
+    width: 90%;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-around;
+}
+#hmcc-Poker, #hmcc-Slots, #hmcc-Roleta
+{
+    border-radius: 15px;
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 0 5px 1px black;
+}
+#hmccp-Inside, #hmccs-Inside, #hmccr-Inside
+{
+    padding: 10px;
+}
+#hmccp-Inside img, #hmccs-Inside img
+{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
