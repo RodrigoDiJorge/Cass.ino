@@ -1,0 +1,21 @@
+#p-Content
+{
+    height: 1000px;
+}
+#pc-Superior
+{
+    height: 540px;
+    display: flex;
+}
+#pc-Lower
+{
+    height: 460px;
+}
+#pcs-Game
+{
+    width: 80%;
+    height: 95%;
+    margin: 0 auto;
+    align-self: center;
+    background: grey;
+}

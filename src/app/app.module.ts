@@ -11,6 +11,7 @@ import { CadastrarComponent } from './front/cadastrar/cadastrar.component';
 import { HomeComponent } from './front/home/home.component';
 import { LoginComponent } from './front/login/login.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { PokerComponent } from './front/poker/poker.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     HeaderComponent,
     CadastrarComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    PokerComponent
   ],
   imports: [
     BrowserModule,
