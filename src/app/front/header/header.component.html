@@ -3,24 +3,36 @@
         <div id="hc-Logo">
             <img src="" alt="">
         </div>
-        <nav id="hc-Busca">
-            <button id="hcb-Home" type="button" class="btn btn-primary" routerLink="">
+        <nav id="hc-Nav">
+            <button id="hcn-Home" type="button" class="btn btn-primary" routerLink="">
                 Home
             </button>
-            <div id="hcb-Jogos" class="btn-group" dropdown>
+            <div id="hcn-Jogos" class="btn-group" dropdown>
                 <button id="button-animated" dropdownToggle type="button" class="btn btn-primary dropdown-toggle"
                         aria-controls="dropdown-animated">
                   Jogos <span class="caret"></span>
                 </button>
                 <ul id="dropdown-animated" *dropdownMenu class="dropdown-menu"
                     role="menu" aria-labelledby="button-animated">
-                    <li role="menuitem"><a class="dropdown-item" href="#">Poker</a></li>
+                    <li role="menuitem"><a class="dropdown-item" routerLink="poker">Poker</a></li>
                     <li role="menuitem"><a class="dropdown-item" href="#">Roleta</a></li>
                     <li role="menuitem"><a class="dropdown-item" href="#">BlackJack</a></li>
                     <li role="menuitem"><a class="dropdown-item" href="#">Slots</a></li>
                 </ul>
             </div>
-            
+            <div id="hcn-Como" class="btn-group" dropdown>
+                <button id="button-animated" dropdownToggle type="button" class="btn btn-primary dropdown-toggle"
+                        aria-controls="dropdown-animated">
+                  Como Jogar <span class="caret"></span>
+                </button>
+                <ul id="dropdown-animated" *dropdownMenu class="dropdown-menu"
+                    role="menu" aria-labelledby="button-animated">
+                    <li role="menuitem"><a class="dropdown-item" href="#">Regras de Poker</a></li>
+                    <li role="menuitem"><a class="dropdown-item" href="#">Regras de Roleta</a></li>
+                    <li role="menuitem"><a class="dropdown-item" href="#">Regras de BlackJack</a></li>
+                    <li role="menuitem"><a class="dropdown-item" href="#">Regras de Slots</a></li>
+                </ul>
+            </div>
         </nav>
         <div id="hc-Login">
             <button id="hcl-Button" type="button" class="btn btn-primary" routerLink="login">

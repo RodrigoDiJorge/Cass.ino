@@ -27,7 +27,8 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/bootstrap/dist/js/bootstrap.js"
+              "src/bootstrap/dist/js/bootstrap.js",
+              "node_modules/phaser/dist/phaser.min.js"
             ]
           },
           "configurations": {

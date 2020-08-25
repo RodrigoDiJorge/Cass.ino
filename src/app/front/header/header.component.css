@@ -10,7 +10,7 @@
 {
     width: 5%;
 }
-#hc-Busca
+#hc-Nav
 {
     width: 80%;
     display: flex;
@@ -20,24 +20,7 @@
     width: 15%;
     display: flex;
 }
-.hcb-Nav
-{
-    height: 25px;
-    width: 100px;
-    font-size: 1.2em;
-    color: white;
-    align-self: center;
-    text-align: center;
-    margin: 0 2px;
-}
-.hcb-Nav li
-{
-    list-style: none;
-}
-.hcb-Nav p:hover
-{
-    color: rgb(177, 177, 177);
-}
+
 #hcb-Home
 {
     margin-right: 10px;
@@ -47,13 +30,13 @@
     height: 40px;
     align-self: center;
 }
-#hcb-Jogos button , #hcb-Home
+#hcn-Jogos button , #hcn-Home , #hcn-Como button
 {
     background-color: rgb(41, 40, 49);
     border-color: rgb(41, 40, 49);
     
 }
-#hcb-Jogos button:focus, #hcb-Home:focus
+#hcn-Jogos button:focus, #hcn-Home:focus, #hcn-Como button:focus
 {
     box-shadow: none;
 }
