@@ -1,0 +1,39 @@
+<div id="rp-Content">
+    <div id="rpc-Regras">
+        <div id="rpcr-Titulo">
+            <h1>Regras Poker</h1>
+        </div>
+        <div id="rpcr-Ganhando">
+            <h3>Ganhando</h3>
+            <p>
+                Geralmente, o vencedor de cada mão de poker 
+                é o jogador que tem a mão de classificação 
+                mais alta no momento em que todas cartas são 
+                mostradas ao final da mão – conhecido como 
+                ‘showdown’ – ou o jogador que faz a última 
+                aposta não paga, vencendo sem precisar chegar
+                em um showdown.
+            </p>
+        </div>
+        <div id="rpcr-Maos">
+            <div id="rpcrm-RoyalFlush">
+                <button type="button" class="btn btn-primary" (click)="collapses.c1 = !collapses.c1"
+                [attr.aria-expanded]="!collapses.c1" aria-controls="collapseBasic">
+                Royal Flush
+                </button>
+                <div id="collapseBasic" [collapse]="collapses.c1" [isAnimated]="true">
+                    <div class="well well-lg card card-block card-header">Some content</div>
+                </div>
+            </div>
+            <div id="rpcrm-RoyalFlush">
+                <button type="button" class="btn btn-primary" (click)="collapses.c2 = !collapses.c2"
+                [attr.aria-expanded]="!collapses.c2" aria-controls="collapseBasic">
+                Royal Flush
+                </button>
+                <div id="collapseBasic" [collapse]="collapses.c2" [isAnimated]="true">
+                    <div class="well well-lg card card-block card-header">Some content</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

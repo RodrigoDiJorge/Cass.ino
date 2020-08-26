@@ -1,0 +1,42 @@
+#rp-Content
+{
+    width: 100%;
+}
+#rpc-Regras
+{
+    width: 60%;
+    margin: 25px auto 0 auto;
+}
+#rpcr-Titulo
+{
+    text-align: center;
+}
+#rpcr-Ganhando h3
+{
+    padding-top: 15px;
+    text-align: center;
+}
+#rpcr-Ganhando p
+{
+    padding-top: 15px;
+    text-align: justify;
+}
+#rpcrm-RoyalFlush
+{
+    display: flex;
+    flex-direction: column;
+}
+#rpcrm-RoyalFlush button
+{
+    width: 100%;
+    background-color: rgb(41, 40, 49);
+    transition: 0.3s;
+    border: none;
+}
+#rpcrm-RoyalFlush button:focus
+{
+    background-color: grey;
+    color:black;
+    border: 2px solid black;
+    box-shadow: 0 0 0.2rem black;
+}

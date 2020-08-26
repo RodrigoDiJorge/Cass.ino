@@ -4,6 +4,7 @@ import { HomeComponent } from './front/home/home.component';
 import { CadastrarComponent } from './front/cadastrar/cadastrar.component';
 import { LoginComponent } from './front/login/login.component';
 import { PokerComponent } from './front/poker/poker.component';
+import { RegraPokerComponent } from './front/regra-poker/regra-poker.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: "poker",
     component:PokerComponent
+  },
+  {
+    path: "regraPoker",
+    component:RegraPokerComponent
   }
 ];
 
